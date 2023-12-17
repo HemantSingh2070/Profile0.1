@@ -1,0 +1,151 @@
+body {
+    margin: 0%;
+    background: linear-gradient(to right, grey, rgb(95, 95, 95));
+
+}
+
+#header {
+    display: block;
+    position: relative;
+    background-color: rgb(124, 66, 66);
+    color: aliceblue;
+    padding: 50px;
+    font-family: cursive;
+    text-align: center;
+    overflow: hidden;
+}
+#himg {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+#profile {
+    display: block;
+    color: whitesmoke;
+    position: fixed;
+    border-radius: 10%;
+    top: 50%;
+    right: 5%;
+    background: linear-gradient(to right, rgb(103, 103, 206), rgb(113, 193, 220));
+    padding: 15px;
+    text-align: center;
+    z-index: 1;
+}
+
+#profile:hover {
+    background: linear-gradient(to right, rgb(113, 193, 220), rgb(103, 103, 206));
+}
+
+#bt:hover {
+    transform: scale(1.01);
+    transition: 30ms;
+    box-shadow: 10%;
+    background-color: rgb(172, 172, 172);
+
+}
+
+#education {
+    display: block;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    right: 10%;
+    background: linear-gradient(to right, rgb(109, 103, 70), rgb(119, 118, 90));
+    padding: 35px;
+    text-align: center;
+    margin: 8% 20%;
+    list-style-image: url("icons8-book-60.png");
+    border-radius: 5px;
+}
+
+#education:hover {
+    background: linear-gradient(to right, rgb(119, 118, 90), rgb(109, 103, 70));
+
+}
+
+#ebox {
+    text-align: left;
+}
+
+#position {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg");
+    color: aliceblue;
+    background-size: cover;
+    padding: 50px;
+    justify-content: center;
+    margin: 8% 20%;
+    border-radius: 5px;
+}
+
+#position:hover {
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#hobbies {
+    background: url("https://wallpapercave.com/wp/iCjwTMW.jpg");
+    background-size: cover;
+    padding: 10%;
+    margin: 8% 20%;
+    text-align: center;
+    color: rgb(242, 242, 242);
+    border-radius: 5%;
+}
+#back{
+    
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: sepia(100%);
+        padding: 20px;
+        margin: 30px;
+        font-weight: bold;
+      }
+#hobbies:hover {
+    box-shadow: 10px 10px 10px 10px black;
+}
+#project{
+    justify-content: center;
+    width: 40%;
+    background-image: url("https://wallpapercave.com/dwp2x/wp7834054.jpg");
+    background-size: cover;
+    padding: 10%;
+    margin: 8% 20%;
+    text-align: left;
+    color: rgb(242, 242, 242);
+    border-radius: 5%;
+}
+#project:hover{
+    box-shadow: 10px 10px 10px rgba(49, 12, 12, 0.7);
+}
+#pn{
+    padding: 10px;
+    margin: 1%;
+    font-weight: bold;
+}
+.pb{
+    margin: 10px;
+}
+.pb:hover{
+    background-color: rgb(156, 146, 146);
+}
+#langset{
+    display: block;
+    background-image: url("https://images2.alphacoders.com/261/thumbbig-26102.webp");
+    text-align: center;
+    color: aliceblue;
+    margin: 10% 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+#langset,ul{
+    list-style: none;
+    
+}
+#langset:hover{
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.645);
+}
+#footer{
+    padding: 60px;
+    display: block;
+    background-color: rgb(68, 47, 47);
+    color: aliceblue;
+}
